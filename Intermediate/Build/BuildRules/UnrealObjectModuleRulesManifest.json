@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\lhp\\Documents\\Unreal Projects\\UnrealObject\\Source\\UnrealObject\\UnrealObject.Build.cs",
+		"C:\\Users\\lhp\\Documents\\Unreal Projects\\UnrealObject\\Source\\UnrealObject.Target.cs",
+		"C:\\Users\\lhp\\Documents\\Unreal Projects\\UnrealObject\\Source\\UnrealObjectEditor.Target.cs"
+	],
+	"EngineVersion": "5.6.0"
+}
