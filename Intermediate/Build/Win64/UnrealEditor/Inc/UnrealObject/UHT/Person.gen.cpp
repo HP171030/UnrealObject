@@ -61,13 +61,23 @@ struct Z_Construct_UClass_UPerson_Statics
 		{ "IncludePath", "Person.h" },
 		{ "ModuleRelativePath", "Person.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Name_MetaData[] = {
+		{ "ModuleRelativePath", "Person.h" },
+	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FStrPropertyParams NewProp_Name;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UPerson>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UPerson_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UPerson, Name), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Name_MetaData), NewProp_Name_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UPerson_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPerson_Statics::NewProp_Name,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UPerson_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_UPerson_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_UObject,
 	(UObject* (*)())Z_Construct_UPackage__Script_UnrealObject,
@@ -79,11 +89,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_UPerson_Statics::ClassP
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
 	nullptr,
-	nullptr,
+	Z_Construct_UClass_UPerson_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
 	0,
-	0,
+	UE_ARRAY_COUNT(Z_Construct_UClass_UPerson_Statics::PropPointers),
 	0,
 	0x001000A0u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UPerson_Statics::Class_MetaDataParams), Z_Construct_UClass_UPerson_Statics::Class_MetaDataParams)
@@ -104,10 +114,10 @@ UPerson::~UPerson() {}
 struct Z_CompiledInDeferFile_FID_Users_lhp_Documents_Unreal_Projects_UnrealObject_Source_UnrealObject_Person_h__Script_UnrealObject_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UPerson, UPerson::StaticClass, TEXT("UPerson"), &Z_Registration_Info_UClass_UPerson, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPerson), 3967754824U) },
+		{ Z_Construct_UClass_UPerson, UPerson::StaticClass, TEXT("UPerson"), &Z_Registration_Info_UClass_UPerson, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPerson), 3326164031U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_lhp_Documents_Unreal_Projects_UnrealObject_Source_UnrealObject_Person_h__Script_UnrealObject_3977120824(TEXT("/Script/UnrealObject"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_lhp_Documents_Unreal_Projects_UnrealObject_Source_UnrealObject_Person_h__Script_UnrealObject_2798385001(TEXT("/Script/UnrealObject"),
 	Z_CompiledInDeferFile_FID_Users_lhp_Documents_Unreal_Projects_UnrealObject_Source_UnrealObject_Person_h__Script_UnrealObject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_lhp_Documents_Unreal_Projects_UnrealObject_Source_UnrealObject_Person_h__Script_UnrealObject_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

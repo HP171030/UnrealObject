@@ -11,6 +11,8 @@
     <None Include="..\..\Source\UnrealObjectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
@@ -34,6 +36,12 @@
       <Filter>Source\UnrealObject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\UnrealObject\CourseInfo.h">
+      <Filter>Source\UnrealObject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealObject\MyGameInstance.cpp">
+      <Filter>Source\UnrealObject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealObject\MyGameInstance.h">
       <Filter>Source\UnrealObject</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\UnrealObject\MyObject.cpp">

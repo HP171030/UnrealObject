@@ -16,7 +16,9 @@ class UNREALOBJECT_API UPerson : public UObject
 	
 public : 
 	UPerson();
-private : 
-
+	FORCEINLINE FString& GetName() { return Name; }
+	void SetName(const FString& InName) { Name = InName; }
+protected : 
+	UPROPERTY()
 	FString Name;
 };

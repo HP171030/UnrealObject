@@ -104,10 +104,10 @@ UStudent::~UStudent() {}
 struct Z_CompiledInDeferFile_FID_Users_lhp_Documents_Unreal_Projects_UnrealObject_Source_UnrealObject_Student_h__Script_UnrealObject_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UStudent, UStudent::StaticClass, TEXT("UStudent"), &Z_Registration_Info_UClass_UStudent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UStudent), 2630788737U) },
+		{ Z_Construct_UClass_UStudent, UStudent::StaticClass, TEXT("UStudent"), &Z_Registration_Info_UClass_UStudent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UStudent), 2316470356U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_lhp_Documents_Unreal_Projects_UnrealObject_Source_UnrealObject_Student_h__Script_UnrealObject_3005688827(TEXT("/Script/UnrealObject"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_lhp_Documents_Unreal_Projects_UnrealObject_Source_UnrealObject_Student_h__Script_UnrealObject_1226382763(TEXT("/Script/UnrealObject"),
 	Z_CompiledInDeferFile_FID_Users_lhp_Documents_Unreal_Projects_UnrealObject_Source_UnrealObject_Student_h__Script_UnrealObject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_lhp_Documents_Unreal_Projects_UnrealObject_Source_UnrealObject_Student_h__Script_UnrealObject_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
